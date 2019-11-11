@@ -8,6 +8,8 @@ target 'Moolecole Project' do
   # Pods for Moolecole Project
     pod 'RxSwift', '~> 5'
     pod 'RxCocoa', '~> 5'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
 
   target 'Moolecole ProjectTests' do
     inherit! :search_paths

@@ -14,5 +14,6 @@ class SplashVC: UIViewController {
         super.viewDidLoad()
         
         self.setHideToolbar()
+        self.setScreenPresent(vc: ListVC(), animated: true, UIPresentationStyle: .fullScreen)
     }
 }
