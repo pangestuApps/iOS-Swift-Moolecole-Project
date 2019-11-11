@@ -1,16 +1,16 @@
 //
-//  ListVC.swift
+//  ListModel.swift
 //  Moolecole Project
 //
 //  Created by Nur Irfan Pangestu on 11/11/19.
 //  Copyright © 2019 moolecole.test. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import RxSwift
+import RxCocoa
 
-class ListVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+struct ListModel {
+    let descriptionList: String
 }

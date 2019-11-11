@@ -12,5 +12,7 @@ class SplashVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.setHideToolbar()
     }
 }

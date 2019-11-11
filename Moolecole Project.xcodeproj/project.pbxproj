@@ -24,6 +24,7 @@
 		0E52509623795AD500536E15 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509523795AD500536E15 /* UIView.swift */; };
 		0E52509823795AEB00536E15 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509723795AEB00536E15 /* UIColor.swift */; };
 		0E52509A23795AFE00536E15 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509923795AFE00536E15 /* UIViewController.swift */; };
+		0E5250A023795C6000536E15 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509F23795C6000536E15 /* ListModel.swift */; };
 		1A96E0028F4606716DA567CB /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */; };
 		8DEFB67CE7042D90DC7288E5 /* Pods_Moolecole_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */; };
 		D073EC5153DEF979548D3A3E /* Pods_Moolecole_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */; };
@@ -71,6 +72,7 @@
 		0E52509523795AD500536E15 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0E52509723795AEB00536E15 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0E52509923795AFE00536E15 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		0E52509F23795C6000536E15 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project.debug.xcconfig"; sourceTree = "<group>"; };
 		6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,9 +204,8 @@
 		0E5250852379582A00536E15 /* List Screen */ = {
 			isa = PBXGroup;
 			children = (
-				0E52508E2379597100536E15 /* Cell */,
-				0E52508A2379596D00536E15 /* ListVC.swift */,
-				0E52508B2379596D00536E15 /* ListVC.xib */,
+				0E52509E23795C3800536E15 /* Entity */,
+				0E52509D23795C2F00536E15 /* View */,
 			);
 			path = "List Screen";
 			sourceTree = "<group>";
@@ -234,6 +235,24 @@
 				0E52509923795AFE00536E15 /* UIViewController.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0E52509D23795C2F00536E15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E52508E2379597100536E15 /* Cell */,
+				0E52508A2379596D00536E15 /* ListVC.swift */,
+				0E52508B2379596D00536E15 /* ListVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E52509E23795C3800536E15 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0E52509F23795C6000536E15 /* ListModel.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		BC1E7B44041AD1E92CF6DC79 /* Frameworks */ = {
@@ -510,6 +529,7 @@
 				0E52509823795AEB00536E15 /* UIColor.swift in Sources */,
 				0E3578A42379561900F41438 /* AppDelegate.swift in Sources */,
 				0E3578A62379561900F41438 /* SceneDelegate.swift in Sources */,
+				0E5250A023795C6000536E15 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
