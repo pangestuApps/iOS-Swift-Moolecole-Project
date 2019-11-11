@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		0E3578B02379561B00F41438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3578AE2379561B00F41438 /* LaunchScreen.storyboard */; };
 		0E3578BB2379561B00F41438 /* Moolecole_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3578BA2379561B00F41438 /* Moolecole_ProjectTests.swift */; };
 		0E3578C62379561B00F41438 /* Moolecole_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3578C52379561B00F41438 /* Moolecole_ProjectUITests.swift */; };
+		0E5250882379586600536E15 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5250862379586600536E15 /* SplashVC.swift */; };
+		0E5250892379586600536E15 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5250872379586600536E15 /* SplashVC.xib */; };
+		0E52508C2379596D00536E15 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52508A2379596D00536E15 /* ListVC.swift */; };
+		0E52508D2379596D00536E15 /* ListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E52508B2379596D00536E15 /* ListVC.xib */; };
+		0E5250912379598200536E15 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52508F2379598200536E15 /* ListCell.swift */; };
+		0E5250922379598200536E15 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5250902379598200536E15 /* ListCell.xib */; };
+		0E52509623795AD500536E15 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509523795AD500536E15 /* UIView.swift */; };
+		0E52509823795AEB00536E15 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509723795AEB00536E15 /* UIColor.swift */; };
+		0E52509A23795AFE00536E15 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509923795AFE00536E15 /* UIViewController.swift */; };
 		1A96E0028F4606716DA567CB /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */; };
 		8DEFB67CE7042D90DC7288E5 /* Pods_Moolecole_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */; };
 		D073EC5153DEF979548D3A3E /* Pods_Moolecole_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */; };
@@ -53,6 +62,15 @@
 		0E3578C12379561B00F41438 /* Moolecole ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moolecole ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3578C52379561B00F41438 /* Moolecole_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moolecole_ProjectUITests.swift; sourceTree = "<group>"; };
 		0E3578C72379561B00F41438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5250862379586600536E15 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		0E5250872379586600536E15 /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
+		0E52508A2379596D00536E15 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		0E52508B2379596D00536E15 /* ListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVC.xib; sourceTree = "<group>"; };
+		0E52508F2379598200536E15 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		0E5250902379598200536E15 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		0E52509523795AD500536E15 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0E52509723795AEB00536E15 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0E52509923795AFE00536E15 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project.debug.xcconfig"; sourceTree = "<group>"; };
 		6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,10 +134,9 @@
 		0E3578A22379561900F41438 /* Moolecole Project */ = {
 			isa = PBXGroup;
 			children = (
+				0E525081237957DE00536E15 /* Apps */,
 				0E3578A32379561900F41438 /* AppDelegate.swift */,
 				0E3578A52379561900F41438 /* SceneDelegate.swift */,
-				0E3578A72379561900F41438 /* ViewController.swift */,
-				0E3578A92379561900F41438 /* Main.storyboard */,
 				0E3578AC2379561B00F41438 /* Assets.xcassets */,
 				0E3578AE2379561B00F41438 /* LaunchScreen.storyboard */,
 				0E3578B12379561B00F41438 /* Info.plist */,
@@ -145,6 +162,80 @@
 			path = "Moolecole ProjectUITests";
 			sourceTree = "<group>";
 		};
+		0E525081237957DE00536E15 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				0E52509323795ABD00536E15 /* Helper */,
+				0E525082237957E700536E15 /* Screen */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		0E525082237957E700536E15 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0E525083237957EE00536E15 /* Default Screen */,
+				0E5250842379581F00536E15 /* Splash Screen */,
+				0E5250852379582A00536E15 /* List Screen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0E525083237957EE00536E15 /* Default Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0E3578A72379561900F41438 /* ViewController.swift */,
+				0E3578A92379561900F41438 /* Main.storyboard */,
+			);
+			path = "Default Screen";
+			sourceTree = "<group>";
+		};
+		0E5250842379581F00536E15 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0E5250862379586600536E15 /* SplashVC.swift */,
+				0E5250872379586600536E15 /* SplashVC.xib */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		0E5250852379582A00536E15 /* List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0E52508E2379597100536E15 /* Cell */,
+				0E52508A2379596D00536E15 /* ListVC.swift */,
+				0E52508B2379596D00536E15 /* ListVC.xib */,
+			);
+			path = "List Screen";
+			sourceTree = "<group>";
+		};
+		0E52508E2379597100536E15 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0E52508F2379598200536E15 /* ListCell.swift */,
+				0E5250902379598200536E15 /* ListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0E52509323795ABD00536E15 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E52509423795AC800536E15 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0E52509423795AC800536E15 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0E52509523795AD500536E15 /* UIView.swift */,
+				0E52509723795AEB00536E15 /* UIColor.swift */,
+				0E52509923795AFE00536E15 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		BC1E7B44041AD1E92CF6DC79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +256,6 @@
 				7950EB764376CB166F0217F9 /* Pods-Moolecole ProjectTests.debug.xcconfig */,
 				B7CC833B5FD8C934B85C37B1 /* Pods-Moolecole ProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3578B02379561B00F41438 /* LaunchScreen.storyboard in Resources */,
+				0E5250922379598200536E15 /* ListCell.xib in Resources */,
+				0E5250892379586600536E15 /* SplashVC.xib in Resources */,
 				0E3578AD2379561B00F41438 /* Assets.xcassets in Resources */,
+				0E52508D2379596D00536E15 /* ListVC.xib in Resources */,
 				0E3578AB2379561900F41438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +502,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3578A82379561900F41438 /* ViewController.swift in Sources */,
+				0E52508C2379596D00536E15 /* ListVC.swift in Sources */,
+				0E52509A23795AFE00536E15 /* UIViewController.swift in Sources */,
+				0E5250882379586600536E15 /* SplashVC.swift in Sources */,
+				0E52509623795AD500536E15 /* UIView.swift in Sources */,
+				0E5250912379598200536E15 /* ListCell.swift in Sources */,
+				0E52509823795AEB00536E15 /* UIColor.swift in Sources */,
 				0E3578A42379561900F41438 /* AppDelegate.swift in Sources */,
 				0E3578A62379561900F41438 /* SceneDelegate.swift in Sources */,
 			);
