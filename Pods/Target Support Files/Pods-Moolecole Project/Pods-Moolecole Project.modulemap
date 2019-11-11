@@ -1,0 +1,6 @@
+framework module Pods_Moolecole_Project {
+  umbrella header "Pods-Moolecole Project-umbrella.h"
+
+  export *
+  module * { export * }
+}

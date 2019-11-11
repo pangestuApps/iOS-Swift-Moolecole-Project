@@ -1,0 +1,6 @@
+framework module Pods_Moolecole_ProjectTests {
+  umbrella header "Pods-Moolecole ProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

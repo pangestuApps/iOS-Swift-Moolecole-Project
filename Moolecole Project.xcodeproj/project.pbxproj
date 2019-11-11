@@ -15,6 +15,9 @@
 		0E3578B02379561B00F41438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E3578AE2379561B00F41438 /* LaunchScreen.storyboard */; };
 		0E3578BB2379561B00F41438 /* Moolecole_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3578BA2379561B00F41438 /* Moolecole_ProjectTests.swift */; };
 		0E3578C62379561B00F41438 /* Moolecole_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3578C52379561B00F41438 /* Moolecole_ProjectUITests.swift */; };
+		1A96E0028F4606716DA567CB /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */; };
+		8DEFB67CE7042D90DC7288E5 /* Pods_Moolecole_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */; };
+		D073EC5153DEF979548D3A3E /* Pods_Moolecole_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0AD06C4A3A2C789CCBA197 /* Pods-Moolecole Project-Moolecole ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project-Moolecole ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole Project-Moolecole ProjectUITests/Pods-Moolecole Project-Moolecole ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E3578A02379561900F41438 /* Moolecole Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moolecole Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3578A32379561900F41438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E3578A52379561900F41438 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		0E3578C12379561B00F41438 /* Moolecole ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moolecole ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3578C52379561B00F41438 /* Moolecole_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moolecole_ProjectUITests.swift; sourceTree = "<group>"; };
 		0E3578C72379561B00F41438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project.debug.xcconfig"; sourceTree = "<group>"; };
+		6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACED96727D4FDCEEB47080C /* Pods-Moolecole Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project.release.xcconfig"; path = "Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project.release.xcconfig"; sourceTree = "<group>"; };
+		7950EB764376CB166F0217F9 /* Pods-Moolecole ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole ProjectTests/Pods-Moolecole ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_Project_Moolecole_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CC833B5FD8C934B85C37B1 /* Pods-Moolecole ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Moolecole ProjectTests/Pods-Moolecole ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		E51CF2D27A9CF653C8D9E2E2 /* Pods-Moolecole Project-Moolecole ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project-Moolecole ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Moolecole Project-Moolecole ProjectUITests/Pods-Moolecole Project-Moolecole ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D073EC5153DEF979548D3A3E /* Pods_Moolecole_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DEFB67CE7042D90DC7288E5 /* Pods_Moolecole_ProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A96E0028F4606716DA567CB /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0E3578B92379561B00F41438 /* Moolecole ProjectTests */,
 				0E3578C42379561B00F41438 /* Moolecole ProjectUITests */,
 				0E3578A12379561900F41438 /* Products */,
+				CA0E32776F3C0EEE23694E4F /* Pods */,
+				BC1E7B44041AD1E92CF6DC79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = "Moolecole ProjectUITests";
 			sourceTree = "<group>";
 		};
+		BC1E7B44041AD1E92CF6DC79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */,
+				A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */,
+				1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0E32776F3C0EEE23694E4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */,
+				6ACED96727D4FDCEEB47080C /* Pods-Moolecole Project.release.xcconfig */,
+				0E0AD06C4A3A2C789CCBA197 /* Pods-Moolecole Project-Moolecole ProjectUITests.debug.xcconfig */,
+				E51CF2D27A9CF653C8D9E2E2 /* Pods-Moolecole Project-Moolecole ProjectUITests.release.xcconfig */,
+				7950EB764376CB166F0217F9 /* Pods-Moolecole ProjectTests.debug.xcconfig */,
+				B7CC833B5FD8C934B85C37B1 /* Pods-Moolecole ProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3578CA2379561B00F41438 /* Build configuration list for PBXNativeTarget "Moolecole Project" */;
 			buildPhases = (
+				34158F10B72DE59021723E86 /* [CP] Check Pods Manifest.lock */,
 				0E35789C2379561900F41438 /* Sources */,
 				0E35789D2379561900F41438 /* Frameworks */,
 				0E35789E2379561900F41438 /* Resources */,
+				0A1514A231E3C7D1185BF60F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3578CD2379561B00F41438 /* Build configuration list for PBXNativeTarget "Moolecole ProjectTests" */;
 			buildPhases = (
+				2EA616A7C8169AE31F36CD67 /* [CP] Check Pods Manifest.lock */,
 				0E3578B22379561B00F41438 /* Sources */,
 				0E3578B32379561B00F41438 /* Frameworks */,
 				0E3578B42379561B00F41438 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3578D02379561B00F41438 /* Build configuration list for PBXNativeTarget "Moolecole ProjectUITests" */;
 			buildPhases = (
+				7C522CE4EA8B5A8C6F9373F7 /* [CP] Check Pods Manifest.lock */,
 				0E3578BD2379561B00F41438 /* Sources */,
 				0E3578BE2379561B00F41438 /* Frameworks */,
 				0E3578BF2379561B00F41438 /* Resources */,
+				62F3DCCD1E2C1DD821709836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A1514A231E3C7D1185BF60F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA616A7C8169AE31F36CD67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moolecole ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34158F10B72DE59021723E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moolecole Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F3DCCD1E2C1DD821709836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project-Moolecole ProjectUITests/Pods-Moolecole Project-Moolecole ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project-Moolecole ProjectUITests/Pods-Moolecole Project-Moolecole ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moolecole Project-Moolecole ProjectUITests/Pods-Moolecole Project-Moolecole ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C522CE4EA8B5A8C6F9373F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moolecole Project-Moolecole ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E35789C2379561900F41438 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		0E3578CB2379561B00F41438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		0E3578CC2379561B00F41438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACED96727D4FDCEEB47080C /* Pods-Moolecole Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		0E3578CE2379561B00F41438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7950EB764376CB166F0217F9 /* Pods-Moolecole ProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		0E3578CF2379561B00F41438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CC833B5FD8C934B85C37B1 /* Pods-Moolecole ProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		0E3578D12379561B00F41438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0AD06C4A3A2C789CCBA197 /* Pods-Moolecole Project-Moolecole ProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		0E3578D22379561B00F41438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51CF2D27A9CF653C8D9E2E2 /* Pods-Moolecole Project-Moolecole ProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
