@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ListCell: UITableViewCell {
-
+    
+    @IBOutlet weak var imgList: UIImageView!
+    @IBOutlet weak var titleList: UILabel!
+    
+    var song: ListModel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
+    }
+    
+    func setDataToCell(_ song: ListModel){
+        
+        self.song = song
+        
+        self.titleList.text = song.description
     }
     
 }

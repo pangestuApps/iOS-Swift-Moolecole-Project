@@ -25,6 +25,9 @@
 		0E52509823795AEB00536E15 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509723795AEB00536E15 /* UIColor.swift */; };
 		0E52509A23795AFE00536E15 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509923795AFE00536E15 /* UIViewController.swift */; };
 		0E5250A023795C6000536E15 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52509F23795C6000536E15 /* ListModel.swift */; };
+		0E84C8D22379D2A50080F025 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8D12379D2A50080F025 /* UIImageView.swift */; };
+		0E84C8D62379D85E0080F025 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8D52379D85E0080F025 /* UIImage.swift */; };
+		0E84C8D82379DCF50080F025 /* PhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8D72379DCF50080F025 /* PhotosManager.swift */; };
 		1A96E0028F4606716DA567CB /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53B62AF7D09487EF8492718 /* Pods_Moolecole_Project_Moolecole_ProjectUITests.framework */; };
 		8DEFB67CE7042D90DC7288E5 /* Pods_Moolecole_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */; };
 		D073EC5153DEF979548D3A3E /* Pods_Moolecole_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */; };
@@ -73,6 +76,9 @@
 		0E52509723795AEB00536E15 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0E52509923795AFE00536E15 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		0E52509F23795C6000536E15 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		0E84C8D12379D2A50080F025 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0E84C8D52379D85E0080F025 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		0E84C8D72379DCF50080F025 /* PhotosManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosManager.swift; sourceTree = "<group>"; };
 		1F704F4987A4A5F0717E64BC /* Pods_Moolecole_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6FE3D33EF0C3531C0AA0F8 /* Pods-Moolecole Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolecole Project.debug.xcconfig"; path = "Target Support Files/Pods-Moolecole Project/Pods-Moolecole Project.debug.xcconfig"; sourceTree = "<group>"; };
 		6941A174BF758873B34A1DD2 /* Pods_Moolecole_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moolecole_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				0E52509423795AC800536E15 /* Extension */,
+				0E84C8D72379DCF50080F025 /* PhotosManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -233,6 +240,8 @@
 				0E52509523795AD500536E15 /* UIView.swift */,
 				0E52509723795AEB00536E15 /* UIColor.swift */,
 				0E52509923795AFE00536E15 /* UIViewController.swift */,
+				0E84C8D12379D2A50080F025 /* UIImageView.swift */,
+				0E84C8D52379D85E0080F025 /* UIImage.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -525,9 +534,12 @@
 				0E52509A23795AFE00536E15 /* UIViewController.swift in Sources */,
 				0E5250882379586600536E15 /* SplashVC.swift in Sources */,
 				0E52509623795AD500536E15 /* UIView.swift in Sources */,
+				0E84C8D82379DCF50080F025 /* PhotosManager.swift in Sources */,
 				0E5250912379598200536E15 /* ListCell.swift in Sources */,
+				0E84C8D22379D2A50080F025 /* UIImageView.swift in Sources */,
 				0E52509823795AEB00536E15 /* UIColor.swift in Sources */,
 				0E3578A42379561900F41438 /* AppDelegate.swift in Sources */,
+				0E84C8D62379D85E0080F025 /* UIImage.swift in Sources */,
 				0E3578A62379561900F41438 /* SceneDelegate.swift in Sources */,
 				0E5250A023795C6000536E15 /* ListModel.swift in Sources */,
 			);

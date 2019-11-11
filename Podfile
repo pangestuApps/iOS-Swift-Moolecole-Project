@@ -10,6 +10,7 @@ target 'Moolecole Project' do
     pod 'RxCocoa', '~> 5'
     pod 'Alamofire'
     pod 'SwiftyJSON'
+    pod 'AlamofireImage'
 
   target 'Moolecole ProjectTests' do
     inherit! :search_paths

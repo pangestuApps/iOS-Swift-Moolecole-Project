@@ -7,10 +7,16 @@
 //
 
 import Foundation
-import RxSwift
-import RxCocoa
+import SwiftyJSON
 
-
-struct ListModel {
-    let descriptionList: String
+class ListModel {
+    
+    var description: String
+    var image_attachment: JSON
+    
+    init(_ description: String, _ image_attachment: JSON){
+        self.description = description
+        self.image_attachment = image_attachment
+    }
+    
 }

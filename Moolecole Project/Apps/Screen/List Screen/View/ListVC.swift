@@ -8,17 +8,20 @@
 
 import RxSwift
 import RxCocoa
+import Alamofire
+import SwiftyJSON
 
 class ListVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var data : [ListModel] = []
-
+    var listModels = [ListModel]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setTableView()
-        self.setDataDummy()
+        
+        self.listWeatherAPI()
     }
     
     private func setTableView() {
@@ -28,39 +31,39 @@ class ListVC: UIViewController {
         self.tableView.delegate = self
     }
     
-    private func setDataDummy() {
-//        self.data.append(ListModel)
-    }
-    
-    func setupData(_ model: [ListModel]) {
-        self.data = model
-        self.tableView.reloadData()
+    private func listWeatherAPI() {
+        Alamofire.request("https://private-96b3f-testing819.apiary-mock.com/mobile/get_user").responseJSON{ response in
+            
+            let json = JSON(response.result.value!)
+            
+            for i in 0 ..< json["data"]["result"].count{
+                
+                let description = json["data"]["result"][i]["description"].string!
+                let image_attachment = json["data"]["result"][i]["image_attachment"]
+                
+                self.listModels.append(ListModel(description, image_attachment))
+            }
+            
+            self.tableView.reloadData()
+            
+        }
     }
 }
 
 extension ListVC: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return self.data.count
-        return 2
+        return self.listModels.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell", for: indexPath) as! ListCell
+        let song = listModels[indexPath.row]
+        cell.setDataToCell(song)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
-}
-
-extension Reactive where Base: ListVC {
-    var model: Binder<[ListModel]?> {
-        return Binder(self.base) { view, model in
-            if model != nil{
-                view.setupData(model!)
-            }
-        }
+        return 130
     }
 }
