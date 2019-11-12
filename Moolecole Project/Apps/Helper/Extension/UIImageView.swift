@@ -10,44 +10,38 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-let imageCahce = NSCache<NSURL, UIImage>()
+let imageCache = NSCache<NSString, UIImage>()
 
 extension UIImageView {
-    
-    
-    
-    public  func loadImageUsingString(urlString: String, newsz : CGSize) {
-        var _ : String?
-        //var  imageme = UIImage()
-        
-        let url = NSURL(string: urlString)
-        
-        if let imageFromCahche = imageCahce.object(forKey:url!)  {
-            self.image = imageFromCahche
+
+    func imageFromServerURL(_ URLString: String, placeHolder: UIImage?) {
+
+        self.image = nil
+        if let cachedImage = imageCache.object(forKey: NSString(string: URLString)) {
+            self.image = cachedImage
             return
         }
-        
-        URLSession.shared.dataTask(with: NSURL(string: urlString)! as URL, completionHandler: { (data, response, error) -> Void in
-            
-            if error != nil {
-                print(error ?? "error")
-                return
-            }
-            DispatchQueue.main.async(execute: { () -> Void in
-                //  self.kf.setImage(with: )
-                let imagetoCache = UIImage(data: data!)?.scaledImage(withSize: newsz)
-                imageCahce.setObject(imagetoCache!, forKey: url!)
-                
-              //  scaledImage(newsz)
-                self.image = imagetoCache!
-                //scaleImageToFitSize(size: newsz)
-                    //imagetoCache!
-                //  let image = UIImage(data: data!)
-                // self.image = image
-            })
-            
-        }).resume()
+
+        if let url = URL(string: URLString) {
+            URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
+
+                //print("RESPONSE FROM API: \(response)")
+                if error != nil {
+                    print("ERROR LOADING IMAGES FROM URL: \(error)")
+                    DispatchQueue.main.async {
+                        self.image = placeHolder
+                    }
+                    return
+                }
+                DispatchQueue.main.async {
+                    if let data = data {
+                        if let downloadedImage = UIImage(data: data) {
+                            imageCache.setObject(downloadedImage, forKey: NSString(string: URLString))
+                            self.image = downloadedImage
+                        }
+                    }
+                }
+            }).resume()
+        }
     }
-    
-    
 }

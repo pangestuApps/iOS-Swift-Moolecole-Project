@@ -12,9 +12,9 @@ import SwiftyJSON
 class ListModel {
     
     var description: String
-    var image_attachment: JSON
+    var image_attachment: String
     
-    init(_ description: String, _ image_attachment: JSON){
+    init(_ description: String, _ image_attachment: String){
         self.description = description
         self.image_attachment = image_attachment
     }

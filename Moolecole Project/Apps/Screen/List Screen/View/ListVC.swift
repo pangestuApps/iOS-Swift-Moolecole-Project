@@ -39,7 +39,7 @@ class ListVC: UIViewController {
             for i in 0 ..< json["data"]["result"].count{
                 
                 let description = json["data"]["result"][i]["description"].string!
-                let image_attachment = json["data"]["result"][i]["image_attachment"]
+                let image_attachment = json["data"]["result"][i]["image_attachment"].string!
                 
                 self.listModels.append(ListModel(description, image_attachment))
             }
