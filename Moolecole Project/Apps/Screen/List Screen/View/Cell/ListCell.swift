@@ -8,6 +8,7 @@
 
 import UIKit
 import AlamofireImage
+import Alamofire
 
 class ListCell: UITableViewCell {
     
@@ -31,6 +32,7 @@ class ListCell: UITableViewCell {
         self.song = song
         
         self.titleList.text = song.description
+        self.imgList.imageFromServerURL(song.image_attachment, placeHolder: UIImage(named: "ic_logo_ios"))
     }
-    
 }
+
